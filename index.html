@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<html lang="en-us">
+	<head>
+        <title>Gem Collector Game</title>
+        
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        
+
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-4">
+					<h1 class="header-style">Gems Collector!</h1>
+				</div>
+                
+                <div class="col-md-8">
+                </div>  
+            </div>
+            
+			<div class="row">
+				<div class="col-md-6">
+					<div class="rules-box">
+						<p>You will be given a random number at the start of the game.</p>
+						<p>There are four gems below.  By clicking on a gem you will add a specific amount of points to your total score.</p>
+						<p>You win the game by matching your total score to random number, you lose the game if you total score goes above the random number.</p>
+						<p>The value of each gem is hidden to make it tricky.</p>
+						<p>Each time the game starts, the game will change the value of each gem.</p>
+					</div>
+				</div>
+            </div>
+            
+			<div class="row">
+				<div class="col-md-12">
+					<div class="random-box">
+						<span id="comp-random-num"></span>
+					</div>
+					<div class="clearfix score-box">
+						<p><span id="result-text"></span></p>
+						<p>Wins:<span id="wins-text"></span></p>
+						<p>Losses:<span id="losses-text"></span></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<img id="red-gem" src="./assets/images/redgem.png" alt="Gem1" class="gem-box">
+					<img id="blue-gem" src="./assets/images/bluegem.png" alt="Gem1" class="gem-box">
+					<img id="diamond-gem" src="./assets/images/diamondgem.png" alt="Gem1" class="gem-box">
+					<img id="green-gem" src="./assets/images/greengem.png" alt="Gem1" class="gem-box">
+				</div>
+            </div>
+            
+			<div class="row">
+				<div class = "col-md-3">
+					<p class="score-title">Your Score is:</p> 
+				</div>
+            </div>
+            
+			<div class="row">
+				<div class = "col-md-3">
+					<p class="player-score">
+						<span id="score-text"></span>
+					</p>
+					<div class="col-md-9"></div>
+				</div>
+		</div>
+	
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+        
+	</body>	
+	</html>

@@ -1,0 +1,61 @@
+
+
+body {
+	background-image: url("../images/background.jpg");
+	width: 980px;
+}
+.clearfix {
+    overflow: auto;
+}
+
+.header-style {
+	background-color: yellowgreen;
+	color: white;
+	padding:10px;
+}
+
+.rules-box {
+	background-color: lightblue;
+	color: white;
+	font-weight: bold;
+}
+
+.random-box, .score-box {
+	height: 100px;
+	margin-bottom: 10px;
+}
+.random-box {
+	background-color: lightcoral;
+	font-size: x-large;
+	font-weight: bold;
+	float: left;
+	width: 200px;
+	margin-right: 10px;
+}
+
+.score-box {
+	background-color: lightsalmon;
+    color: white;
+	font-weight: bold;
+	width:100px;
+}
+
+.gem-box {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin:0 10px 10px 0;
+}
+
+.score-title {
+	background-color: lightseagreen;
+	color: white;
+}
+
+.player-score {
+	background-color: lightskyblue;
+	color: white;
+	height:100px;
+	font-weight: bold;
+	font-size: x-large;
+}
